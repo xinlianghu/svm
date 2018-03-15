@@ -100,7 +100,6 @@ def main():
     '''
     svm = LibSVM.load("svm.txt")
     test,testlabel = loadImage('testDigits')
-    print shape(test)
     svm.predict(test,testlabel)
 
 if __name__ == "__main__":
