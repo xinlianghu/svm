@@ -26,4 +26,4 @@ def main():
     test,testlabel = loadImage('testDigits')
     svm.predict(test,testlabel)
 ```
-
+haha!
